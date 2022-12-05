@@ -55,7 +55,7 @@ fn get_round_score(opponent_hand: char, own_hand: char) -> i64 {
 }
 
 fn main() {
-    let input_file_path = "full.input";
+    let input_file_path = "src/bin/day_2/full.input";
     let contents = fs::read_to_string(input_file_path).unwrap();
     println!("Part 1: {}", part_1(&contents));
     println!("Part 2: {}", part_2(&contents));

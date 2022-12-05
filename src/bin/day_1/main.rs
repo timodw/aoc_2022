@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let input_file_path = "full.input";
+    let input_file_path = "src/bin/day_1/full.input";
     let contents = fs::read_to_string(input_file_path).unwrap();
     println!("Part 1: {}", part_1(&contents));
     println!("Part 2: {}", part_2(&contents));

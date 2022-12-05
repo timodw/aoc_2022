@@ -22,7 +22,7 @@ fn get_priority_of_badge(group_contents: Vec::<&str>) -> i64 {
 }
 
 fn main() {
-    let input_file_path = "full.input";
+    let input_file_path = "src/bin/day_3/full.input";
     let contents = fs::read_to_string(input_file_path).unwrap();
     println!("Part 1: {}", part_1(&contents));
     println!("Part 2: {}", part_2(&contents));
